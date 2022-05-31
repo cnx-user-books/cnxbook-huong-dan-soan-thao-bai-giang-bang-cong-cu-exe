@@ -1,0 +1,54 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Một số vấn đề về xây dựng nội dung bài giảng điện tử</title>
+  <metadata>
+  <md:content-id>m28621</md:content-id><md:title>Một số vấn đề về xây dựng nội dung bài giảng điện tử</md:title>
+  <md:abstract/>
+  <md:uuid>609af429-3ce2-43cf-8ca2-5ceadc73dad3</md:uuid>
+</metadata>
+
+<content>
+    <para id="id25054327">Bài giảng điện tử trên E-Learning là sự kết hợp giữa các bài giảng truyền thống và các thiết bị điện tử, trong đó, người giáo viên thể hiện bài giảng của mình thông qua các đoạn văn bản, các hình ảnh, video, bảng biểu minh họa, hay các câu hỏi gợi mở, các câu hỏi trắc nghiệm... </para>
+    <para id="id27065261">Bảng dưới đây so sánh các hoạt động của thầy giáo trong dạy học truyền thống với các hoạt động mà người thầy giáo đã "truyền" vào bài giảng điện tử thông qua các phương tiện điện tử:  </para>
+    <table id="id25799524" summary="">
+      <tgroup cols="2">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <tbody>
+          <row>
+            <entry>Hoạt động của thầy giáo</entry>
+            <entry>Thể hiện trên máy tính </entry>
+          </row>
+          <row>
+            <entry>Thuyết giảng</entry>
+            <entry>Ghi âm và phát lại dưới dạng các file audio (mp3) </entry>
+          </row>
+          <row>
+            <entry>Đưa ra các câu hỏi gợi mở </entry>
+            <entry>Hiển thị các câu hỏi trắc nghiệm mang tính chất gợi mở</entry>
+          </row>
+          <row>
+            <entry>Viết bảng</entry>
+            <entry>Hiển thị các đoạn văn bản</entry>
+          </row>
+          <row>
+            <entry>Làm thí nghiệm</entry>
+            <entry>Hiển thị video mô phỏng các thí nghiệm</entry>
+          </row>
+          <row>
+            <entry>Trình bày các hình ảnh trực quan</entry>
+            <entry>Hiển thị các hình ảnh trực quan, video, audio, flash...</entry>
+          </row>
+          <row>
+            <entry>Kiểm tra</entry>
+            <entry>Các dạng bài thi trắc nghiệm </entry>
+          </row>
+          <row>
+            <entry>...</entry>
+            <entry>...</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id24850514"> Chú ý rằng trước khi bắt tay vào xây dựng một bài giảng điện tử, chúng ta nên thiết kế kịch bản của bài giảng để hình dung được những phản xạ thường gặp của học sinh. </para>
+  </content>
+</document>

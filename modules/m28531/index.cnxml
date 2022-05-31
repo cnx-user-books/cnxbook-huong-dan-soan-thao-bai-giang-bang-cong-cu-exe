@@ -1,0 +1,78 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Các tính năng khác của eXe</title>
+  <metadata>
+  <md:content-id>m28531</md:content-id><md:title>Các tính năng khác của eXe</md:title>
+  <md:abstract/>
+  <md:uuid>5ee11a03-83fe-485c-8bd3-ce9ef12e085d</md:uuid>
+</metadata>
+
+<content>
+    <section id="id-562771546318">
+      <title>Xây dựng một iDevice mới với iDevice Editor</title>
+      <para id="id27402064">Bộ soạn thảo iDevice cho phép bạn thiết kế các iDevices của riêng mình. Tính năng này hiện đang được phát triển nên các chức năng của nó sẽ được tiếp tục cải thiện trong những phiên bản sau này.</para>
+      <section id="id-492960364967">
+        <title>Tạo một iDevice</title>
+        <para id="id26239843">Để tạo một iDevice, ta làm như sau:</para>
+        <list id="id26239848" list-type="enumerated">
+          <item>Khi eXe đang chạy, lựa chọn menu Tool, tiếp đó chọn iDevice Editor. Cửa sổ iDevice editor sẽ mở ra:</item>
+        </list>
+        <figure id="id25099547">
+          <media id="id1165938658878" alt=""><image src="../../media/graphics1-c02f.png" mime-type="image/png" height="358" width="577"/></media>
+        </figure>
+        <list id="id25394898" list-type="enumerated">
+          <item>Trong ô Name, nhập tên cho iDevice</item>
+          <item>Trong ô Pedagogical Tip, nhập những chú thích hỗ trợ cần thiết cho người dùng khác khi sử dụng iDevice này, ví dụ như cách sử dụng iDevice.</item>
+          <item>Lựa chọn kiểu nhấn mạnh mà bạn muốn đặt vào trong nội dung nhập vào với idevice này. Nếu không có sự nhấn mạnh nào (No emphasys, có nghĩa là nội dung sẽ được hiển thị là văn bản đơn thuần (plain text). Some emphasis phân biệt text slight và Strong emphasis sẽ tô sáng văn bản. Thông qua cách chọn emphasis bạn sẽ được cung cấp một menu biểu tượng (icon). Kích chọn một biểu tượng để đính kèm nó cùng với iDevice của bạn. Biểu tượng này sẽ xuất hiện bênh cạnh tiêu đề của iDevice.</item>
+          <item><figure id="id26814447"><media id="id8324344" alt=""><image src="../../media/graphics2-1359.png" mime-type="image/png" height="209" width="175"/></media></figure>Bước tiếp theo là để xây dựng iDevice của bạn bằng cách lựa chọn các phần tử mà bạn muốn xuất hiên trong iDevice:<list id="id25366458" list-type="bulleted"><item>Text Line cung cấp cho bạn một trường nhập dữ liệu trên một dòng. </item><item>Text Box cho bạn một trường nhập dữ liệu trên nhiều dòng (text area)</item><item>Feedback: Ô văn bản cung cấp các phản hồi tới học viên.</item><item>Attachment: file đính kèm</item><item>MP3: audio </item></list></item>
+          <item>Nhập cho mỗi phần tử đưa vào một nhãn và một lời chỉ dẫn thích hợp.</item>
+          <item>Kích chọn Save. iDevice mới sẽ xuất hiện trên bảng iDevices . iDevice này sẽ được sử dụng theo cùng cách với các iDevices khác.</item>
+        </list>
+        <para id="id25423828"><figure id="id25423831"><media id="id1165938395428" alt=""><image src="../../media/graphics3-789c.png" mime-type="image/png" height="325" width="178"/></media></figure>Bảng điều khiển iDevice Editor (iDevice Editor Actions Panel)</para>
+        <para id="id24068202">Bảng hành động cung cấp một số các chức năng soạn thảo:</para>
+        <para id="id24068209">Nút Preview </para>
+        <para id="id26431775">Nút preview cho phép bạn xem trước các trường được chọn cùng với bất kỳ các tip, hint và nhãn đã được chỉ định. Trong chế độ preview, nút Preview sẽ chuyển thành Edit. Kích chuột lên nút Edit sẽ trở về chế độ soạn thảo, nơi bạn có thể tiếp tục soạn thảo iDevice.</para>
+        <para id="id25523807">Nút Cancel </para>
+        <para id="id26881909">Nút Cancel được sử dụng với các iDevice đang tồn tại và sẽ huỷ bỏ bất kỳ một sự thay đổi nào đã được tạo ra trong thể hiện soạn thảo hiện tại. Tất cả các trường được thêm vào trong thể hiện soạn thảo mới này sẽ bị huỷ bỏ.</para>
+        <para id="id27230725">Nút Delete </para>
+        <para id="id27302672">Nút Delete sẽ gỡ bỏ một iDevice đang được lựa chọn từ danh sách iDevice.</para>
+        <para id="id27302679">Nút Save </para>
+        <para id="id27345731">Nút Save lưu các thay đổi vào iDevices đang tồn tại.</para>
+      </section>
+    </section>
+    <section id="id-263396454421">
+      <title>Thay đổi ngôn ngữ sử dụng</title>
+      <para id="id26510671">Để thay đổi ngôn ngữ sử dụng trong eXe, ta làm như sau:</para>
+      <para id="id25514412">Bước 1: Kích chọn menu Tool, chọn tiếp Preferences</para>
+      <para id="id25514418">Khi đó eXe sẽ hiển thị hộp thoại như sau:</para>
+      <para id="id25065689">
+        <media id="id8721655" alt=""><image src="../../media/graphics4-a96a.png" mime-type="image/png" height="265" width="515"/></media>
+      </para>
+      <para id="id27342612">Bước 2: Kích chọn ngôn ngữ sử dụng trong hộp Select Language.</para>
+      <para id="id27342616">Bước 3: Kích chọn OK để kết thúc.</para>
+    </section>
+    <section id="id-0254817198643">
+      <title>Thay đổi giao diện của tài liệu</title>
+      <para id="id27067772">Để thay đổi giao diện của tài liệu, ta có thể vào menu Style, sau đó kích chọn giao diện theo ý thích. Giao diện mới sẽ được cập nhật ngay sau đó.</para>
+      <figure id="id25417436">
+        <media id="id1165941438567" alt=""><image src="../../media/graphics5-d001.png" mime-type="image/png" height="183" width="218"/></media>
+      </figure>
+      <para id="id27168821">Ví dụ như một số khung nền như sau:</para>
+      <para id="id27053584">Garden</para>
+      <figure id="id27053592">
+        <media id="id1165941140836" alt=""><image src="../../media/graphics6-468b.png" mime-type="image/png" height="210" width="575"/></media>
+      </figure>
+      
+      <figure id="id25503547"><media id="id1165944456211" alt=""><image src="../../media/graphics7-9880.png" mime-type="image/png" height="243" width="577"/></media>
+<caption>Kahurangi</caption></figure>
+    </section>
+    <section id="id-594092414223">
+      <title>Chèn một gói nội dung đã có sẵn</title>
+      <para id="id26523823">Nếu chúng ta đã có một khoá học hay một gói nội dung đã có sẵn được tạo ra bởi eXe, chúng ta có thể sử dụng tính năng Merging để nhập khẩu gói nội dung đó.</para>
+      <para id="id20123789">Để làm điều này, ta làm như sau :</para>
+      <para id="id20123794">Bước 1: Lựa chọn nhánh nội dung cần chèn trên cây đề cương Outline.</para>
+      <para id="id26798237">Bước 2: Vào menu File, chọn Merging Insert Package.</para>
+      <para id="id21891058">Bước 3 : Lựa chọn file *.elp có sẵn cần chèn, sau đó bấm Open.</para>
+      <para id="id25142082">Hệ thống sẽ tiến hành nhập khẩu nội dung trong file *.elp vào nhánh đang chọn của tài liệu hiện tại.</para>
+    </section>
+  </content>
+</document>

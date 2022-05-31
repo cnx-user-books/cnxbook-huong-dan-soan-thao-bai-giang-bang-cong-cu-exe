@@ -1,0 +1,26 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Giới thiệu về eXe</title>
+  <metadata>
+  <md:content-id>m28561</md:content-id><md:title>Giới thiệu về eXe</md:title>
+  <md:abstract/>
+  <md:uuid>aff0fb42-d454-4881-aa1d-1934b42e9c2a</md:uuid>
+</metadata>
+
+<content>
+    <para id="id27202203">eLearning XHTML editor (eXe) là một công cụ xây dựng nội dung đào tạo (authoring) được thiết kế chạy trên môi trường web để giúp đỡ các giáo viên và các học viện trong việc thiết kế, phát triển và xuất bản các tài liệu dạy và học trên web mà không cần phải thành thạo về HTML, XML hay các ứng dụng xuất bản web rắc rối khác. eXe đã được phát triển để dễ dàng vượt qua những giới hạn:</para>
+    <list id="id26539686" list-type="bulleted">
+      <item>Các phần mềm xây dựng nội dung trên web truyền thống đòi hỏi những kiến thức không hợp lý, chúng không trực quan và các ứng dụng trước đây không được thiết kế để xuất bản nội dung kiến thức. Do vậy các giáo viên và các học viện đã không chấp nhận các kỹ thuật này để xuất bản nội dung kiến thức trực tuyến. eXe nhắm đến việc cung cấp một công cụ trực quan, dễ sử dụng cho phép các giáo viên xuất bản các trang web chuyên nghiệp để dạy học.</item>
+    </list>
+    <list id="id25244007" list-type="bulleted">
+      <item>Hiện nay, các hệ thống learning management system – LMS không cung cấp các công cụ authoring phức tạp cho nội dung web (khi so sánh khả năng của phần mềm web-authoring hoặc các kỹ năng của các nhà phát triển web có kinh nghiệm). eXe sẽ phát triển một công cụ cho phép cung cấp những khả năng chuyên nghiệp về web – publishing, sao cho chúng có thể tham chiếu một cách dễ dàng hoặc được import bởi các hệ thống tương thích LMS chuẩn.</item>
+    </list>
+    <list id="id24351105" list-type="bulleted">
+      <item>Phần lớn các hệ quản lý nội dung và LMS sử dụng mô hình web server tập trung, vì thế yêu cầu sự kết nối để soạn thảo. Điều này sẽ giới hạn các nhà biên soạn có kết nối băng thông thấp hoặc không kết nối mạng. eXe được phát triển như là một công cụ authoring offline mà không cần thiết phải kết nối mạng.</item>
+    </list>
+    <list id="id26510626" list-type="bulleted">
+      <item>Rất nhiều các hệ quản trị nội dung và LMS không cung cấp môi trường trực quan wysiwyg để các tác giả có thể nhìn thấy nội dung của họ sẽ trông ra sao trên trình duyệt khi đã xuất bản, đặc biệt là khi làm việc offline. eXe sẽ bắt chước các tính năng wysiwig cho phép người dùng nhìn thấy được nội dung của họ sẽ như thế nào khi xuất bản lên mạng. </item>
+      <item>Các ứng dụng như Frontpage và Dreamweaver có thể cung cấp cho người dùng một công cụ khá tinh vi để thiết kế web. Tuy nhiên, trong việc thiết kế bài giảng thì các công cụ này yêu cầu bạn phải có một trình độ khá cao, tiêu tốn nhiều thời gian. </item>
+    </list>
+    <para id="id28249320">Cùng với eXe, các tác giả đã cố gắng định danh rất nhiều các phần tử để tạo tài nguyên học tập và biểu diễn chúng trong các mẫu với kỹ thuật đơn giản và dễ dùng. Trong môi trường eXe, các mẫu này được biết đến dưới dạng các iDevices. Bằng cách xây dựng một trình tự học tập bao gồm cấu trúc nội dung và một số các iDevices, người dùng có thể bắt đầu để phát triển các mẫu của riêng mình để tạo ra và tái sử dụng nội dung. Nếu như các iDevice có sẵn không đủ dùng, eXe cho phép chúng ta có thể tự xây dựng các iDevice khác. Trên mỗi iDevice cũng có sẵn những dòng tip hỗ trợ, chỉ dẫn việc sử dụng các iDevice để dạy học. Các tip còn được cung cấp gần các trường trên mẫu biểu của iDevice's để giúp đỡ người soạn trong việc sinh ra các nội dung thích hợp.</para>
+  </content>
+</document>

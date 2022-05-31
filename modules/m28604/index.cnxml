@@ -1,0 +1,30 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Làm việc với eXe</title>
+  <metadata>
+  <md:content-id>m28604</md:content-id><md:title>Làm việc với eXe</md:title>
+  <md:abstract/>
+  <md:uuid>02d1c012-4da3-4e47-bd43-bff99a98f78e</md:uuid>
+</metadata>
+
+<content>
+    <section id="id-530022642376">
+      <title>Khởi động và thoát khỏi eXe</title>
+      <para id="id19035342">Để khởi động eXe, kích đúp chuột lên biểu tượng của eXe (thường xuất hiện trên desktop của máy tính sau khi cài đặt). Nếu bạn không tìm thấy biểu tượng của eXe, bạn cần phải tìm ra biểu tượng của ứng dụng trên menu Start -&gt; Programs. Sau khi đã khởi động, chương trình sẽ chạy trình duyệt Firefox. Bạn nên phóng to cửa sổ của Firefox để tận dụng tất cả các khoảng trống để làm việc.</para>
+    </section>
+    <section id="id-97905982521">
+      <title>Giao diện eXe như sau.</title>
+      <figure id="id26104941"><media id="id1171117231323" alt=""><image src="../../media/graphics1-4f7f.png" mime-type="image/png" height="448" width="625"/></media>
+<caption>Thanh công cụ và các mục chọn Sidebar của eXe </caption>
+</figure>
+      
+      <para id="id21978716">Rất nhiều người sử dụng sẽ cảm thấy thân thiện hơn với thanh công cụ và một menu thả xuống được hiển thị ở phía trên của màn hình. eXe đã cài đặt tính năng chuẩn này trong phiên bản 0.4 và đưa rất nhiều chức năng chuẩn (như new, save, export ...) vào định dạng này. Điều này cho phép chung ta giảm bởi các tài nguyên khoảng trống thực sự trên bảng authoring để tạo nội dung. </para>
+      <para id="id25805164">Mục chọn Outline và iDevice trong các phiên bản trước đã trở thành menu biên cho phép người dùng linh động hơn với các công cụ thường sử dụng để có thể biến đổi đề cương và lựa chọn iDevices.</para>
+      <para id="id26078708">Outline </para>
+      <para id="id26822963">Mục chọn Outline cho phép người dùng thiết kế một đề cương phản chiếu cấu trúc theo thứ tự và phân loại ưu tiên, ví dụ: topics-sections-units, hoặc books-chapters-verses, v.v.. Chúng ta có thể tự thiết lập được chúng.</para>
+      <para id="id27400289">iDevice </para>
+      <para id="id25934797">Mục chọn iDevice (instructional device) bao gồm một tập các phần tử có cấu trúc để mô tả nội dung học tập VD: objectives, pre-knowledge, case studies, free text. Nội dung học tập (learning content) được biên soạn bằng cách lựa chọn các iDevices từ menu iDevice và nhập nội dung học tập của bạn vào. Một tài nguyên học tập có thể bao gồm một số hoặc nhiều các iDevices tuỳ theo yêu cầu thực tế của nội dung bài giảng. Các iDevice hiện đang được phát triển, tuỳ theo từng phiên bản cụ thể sẽ có thể có những iDevice khác nhau. Bộ soạn thảo iDevice cho phép người dùng thiết kế các mẫu và các iDevice của riêng mình.</para>
+      <para id="id26791946">Authoring</para>
+      <para id="id27222470">Đây là vùng soạn thảo nội dung chính của eXe. Nội dung tài liệu được đưa vào thông qua các iDevice tương ứng. </para>
+    </section>
+  </content>
+</document>

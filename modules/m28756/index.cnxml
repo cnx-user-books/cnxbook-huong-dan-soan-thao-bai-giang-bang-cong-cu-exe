@@ -1,0 +1,21 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Xuất bản nội dung trong eXe</title>
+  <metadata>
+  <md:content-id>m28756</md:content-id><md:title>Xuất bản nội dung trong eXe</md:title>
+  <md:abstract/>
+  <md:uuid>2258adbe-4357-473c-a751-f4177b1c908a</md:uuid>
+</metadata>
+
+<content>
+    <section id="id-528207510172">
+      <title>Xuất bản gói nội dung dưới dạng các gói nội dung SCORM/IMS</title>
+      <para id="id25193563">Như đã đề cập đến ở trên, các gói SCORM/IMS là các gói tài liệu được đóng gói theo chuẩn đặc tả SCORM hoặc IMS. Việc đóng gói theo các định chuẩn này sẽ cho phép nội dung có thể được sử dụng ở các hệ thống LMS khác nhau hỗ trợ SCORM.</para>
+      <para id="id25686676">Để làm điều này, ta thực hiện như sau:</para>
+      <para id="id12696880">Bước 1: Vào menu File, chọn Export</para>
+      <para id="id24761377">Bước 2: Lựa chọn SCORM 1.2 hoặc IMS Content Package. Cửa sổ &lt;export SCORM package as&gt; sẽ được hiển thị và bạn sẽ được nhắc để nhập tiêu đề cho gói. </para>
+      <para id="id26224304">Bước 3: Nhập tiêu đề cho gói và kích chọn Save. </para>
+      <para id="id26759383">Ta có thể làm tương tự với việc export sang gói IMS. </para>
+      <para id="id26961702">Các gói được export theo cách này sẽ được lưu dưới dạng các file nén .zip. Bạn không cần phải giải nén các file này để import vào một LMS.</para>
+    </section>
+  </content>
+</document>

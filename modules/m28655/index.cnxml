@@ -1,0 +1,457 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Phụ lục: Một số cú pháp gõ công thức toán học trong eXe</title>
+  <metadata>
+  <md:content-id>m28655</md:content-id><md:title>Phụ lục: Một số cú pháp gõ công thức toán học trong eXe</md:title>
+  <md:abstract/>
+  <md:uuid>64730da9-6c50-4438-a38f-d3e1c271701c</md:uuid>
+</metadata>
+
+<content>
+    <para id="id26153479">Trong hệ thống đang được tích hợp bộ soạn thảo toán học LaTeX. Bộ soạn thảo này giúp xuất ra công thức toán học dưới dạng ảnh. Dưới đây là các ký hiệu dùng cho biểu thị các biểu tượng toán học:</para>
+    <table id="id25592665" summary="">
+      <tgroup cols="5">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <tbody>
+          <row>
+            <entry>Toán tử</entry>
+            <entrytbl namest="c2" nameend="c3" cols="2">
+              <colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <tbody>
+                <row>
+                  <entry namest="c1" nameend="c2">LaTeX</entry>
+                </row>
+                <row>
+                  <entry>Dạng 1</entry>
+                  <entry>Dạng 2</entry>
+                </row>
+              </tbody>
+            </entrytbl>
+            <entry>Ví dụ</entry>
+            <entry>Chú ý</entry>
+          </row>
+          <row>
+            <entry>+</entry>
+            <entry>+</entry>
+            <entry/>
+            <entry/>
+            <entry/>
+          </row>
+          <row>
+            <entry>-</entry>
+            <entry>-</entry>
+            <entry/>
+            <entry/>
+            <entry/>
+          </row>
+          <row>
+            <entry>/</entry>
+            <entry>/</entry>
+            <entry/>
+            <entry/>
+            <entry/>
+          </row>
+          <row>
+            <entry>x</entry>
+            <entry>\cdot</entry>
+            <entry>\times</entry>
+            <entry/>
+            <entry/>
+          </row>
+          <row>
+            <entry>=</entry>
+            <entry>=</entry>
+            <entry>=</entry>
+            <entry/>
+            <entry/>
+          </row>
+          <row>
+            <entry>&gt;</entry>
+            <entry>&gt;</entry>
+            <entry/>
+            <entry/>
+            <entry/>
+          </row>
+          <row>
+            <entry>&lt;</entry>
+            <entry>&lt;</entry>
+            <entry/>
+            <entry/>
+            <entry/>
+          </row>
+          <row>
+            <entry>&lt;=</entry>
+            <entry>\leq</entry>
+            <entry/>
+            <entry/>
+            <entry/>
+          </row>
+          <row>
+            <entry>&gt;=</entry>
+            <entry>\geq</entry>
+            <entry/>
+            <entry/>
+            <entry/>
+          </row>
+          <row>
+            <entry>phân thức</entry>
+            <entry>\frac</entry>
+            <entry/>
+            <entry>\frac{a}{q} = <media id="id8453277" alt=""><image src="../../media/graphics1-3606.png" mime-type="image/png"/></media></entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:msqrt>
+                          <m:mrow/>
+                        </m:msqrt>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ sqrt {} } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>\sqrt{…}</entry>
+            <entry/>
+            <entry/>
+            <entry/>
+          </row>
+          <row>
+            <entry>chỉ số trên</entry>
+            <entry>^</entry>
+            <entry/>
+            <entry/>
+            <entry/>
+          </row>
+          <row>
+            <entry>chỉ số dưới</entry>
+            <entry>_</entry>
+            <entry/>
+            <entry/>
+            <entry/>
+          </row>
+          <row>
+            <entry>Tổng đại số 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∑</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ Sum {} } {}</m:annotation></m:semantics></m:math></entry>
+            <entry>\sum</entry>
+            <entry>\Sigma</entry>
+            <entry/>
+            <entry/>
+          </row>
+          <row>
+            <entry>lim</entry>
+            <entry>\lim</entry>
+            <entry/>
+            <entry/>
+            <entry/>
+          </row>
+          <row>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mo stretchy="false">∞</m:mo>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ infinity } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>\infty</entry>
+            <entry/>
+            <entry/>
+            <entry/>
+          </row>
+          <row>
+            <entry>Ký tự Hy Lạp</entry>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry/>
+          </row>
+          <row>
+            <entrytbl namest="c1" nameend="c4" cols="4">
+              <colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <colspec colnum="3" colname="c3"/>
+              <colspec colnum="4" colname="c4"/>
+              <tbody>
+                <row>
+                  <entry>alpha</entry>
+                  <entry>\alpha</entry>
+                  <entry/>
+                  <entry>
+                    <m:math>
+                      <m:semantics>
+                        <m:mrow>
+                          <m:mstyle fontsize="12pt">
+                            <m:mrow>
+                              <m:mi>α</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mrow/>
+                        </m:mrow>
+                        <m:annotation encoding="StarMath 5.0"> size 12{α} {}</m:annotation>
+                      </m:semantics>
+                    </m:math>
+                  </entry>
+                </row>
+                <row>
+                  <entry>beta</entry>
+                  <entry>\beta</entry>
+                  <entry/>
+                  <entry/>
+                </row>
+                <row>
+                  <entry>gamma</entry>
+                  <entry>\gamma</entry>
+                  <entry/>
+                  <entry/>
+                </row>
+                <row>
+                  <entry>delta</entry>
+                  <entry>\delta</entry>
+                  <entry/>
+                  <entry/>
+                </row>
+                <row>
+                  <entry>epsilon</entry>
+                  <entry>\epsilon</entry>
+                  <entry/>
+                  <entry/>
+                </row>
+                <row>
+                  <entry>theta</entry>
+                  <entry>\theta</entry>
+                  <entry/>
+                  <entry/>
+                </row>
+                <row>
+                  <entry>lambda</entry>
+                  <entry>\lambda</entry>
+                  <entry/>
+                  <entry/>
+                </row>
+                <row>
+                  <entry>pi</entry>
+                  <entry>\pi</entry>
+                  <entry/>
+                  <entry/>
+                </row>
+                <row>
+                  <entry>sigma</entry>
+                  <entry>\sigma</entry>
+                  <entry/>
+                  <entry/>
+                </row>
+                <row>
+                  <entry>phi</entry>
+                  <entry>\phi</entry>
+                  <entry/>
+                  <entry/>
+                </row>
+                <row>
+                  <entry>omega</entry>
+                  <entry>\omega</entry>
+                  <entry/>
+                  <entry/>
+                </row>
+                <row>
+                  <entry>dấu tích phân</entry>
+                  <entry>\int</entry>
+                  <entry>\bigint</entry>
+                  <entry/>
+                </row>
+              </tbody>
+            </entrytbl>
+            <entry>Cột bên là sẽ cho các ký tự ở dạng chữ thường. VD: \alpha = 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>α</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{α} {}</m:annotation></m:semantics></m:math>Để xuất được các ký tự đó ở dạng chữ hoa thì chỉ cần gõ ký tự đầu tiên của mã LateX là chữ hoa. VD: \Alpha = 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>α</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{α} {}</m:annotation></m:semantics></m:math></entry>
+          </row>
+          <row>
+            <entry>Mũi tên</entry>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry/>
+          </row>
+          <row>
+            <entrytbl namest="c1" nameend="c4" cols="4">
+              <colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <colspec colnum="3" colname="c3"/>
+              <colspec colnum="4" colname="c4"/>
+              <tbody>
+                <row>
+                  <entry>sang trái</entry>
+                  <entry>\leftarrow</entry>
+                  <entry/>
+                  <entry/>
+                </row>
+                <row>
+                  <entry>sang trái, dài</entry>
+                  <entry>\longleftarrow</entry>
+                  <entry/>
+                  <entry/>
+                </row>
+                <row>
+                  <entry>sang phải</entry>
+                  <entry>\rightarrrow</entry>
+                  <entry/>
+                  <entry/>
+                </row>
+                <row>
+                  <entry>sang phải, dài</entry>
+                  <entry>\longrightarrow</entry>
+                  <entry/>
+                  <entry/>
+                </row>
+                <row>
+                  <entry>cả hai bên</entry>
+                  <entry>\leftrightarrow</entry>
+                  <entry/>
+                  <entry>
+                    <m:math>
+                      <m:semantics>
+                        <m:mrow>
+                          <m:mstyle fontsize="12pt">
+                            <m:mrow>
+                              <m:mi>↔</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mrow/>
+                        </m:mrow>
+                        <m:annotation encoding="StarMath 5.0"> size 12{↔} {}</m:annotation>
+                      </m:semantics>
+                    </m:math>
+                  </entry>
+                </row>
+                <row>
+                  <entry>lên trên</entry>
+                  <entry>\uparrow</entry>
+                  <entry/>
+                  <entry/>
+                </row>
+                <row>
+                  <entry>xuống dưới</entry>
+                  <entry>\downarrow</entry>
+                  <entry/>
+                  <entry/>
+                </row>
+              </tbody>
+            </entrytbl>
+            <entry>Để có mũi tên với 2 dấu thân, hãy viết hoa chữ cái đầu. VD: \Lefrighttarrow = 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mo stretchy="false">⇔</m:mo></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ dlrarrow } {}</m:annotation></m:semantics></m:math></entry>
+          </row>
+          <row>
+            <entry>cả trên và dưới</entry>
+            <entry>\updownarrow</entry>
+            <entry/>
+            <entry/>
+            <entry/>
+          </row>
+          <row>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry/>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id26071164">Công thức toán học phải nằm bên trong cặp dấu $$, </para>
+    <para id="id26071170">VD: $$a^2 + b^2 = c^2$$ cho kết quả<media id="id7655472" alt=""><image src="../../media/graphics2-9ca5.png" mime-type="image/png" height="22" width="100"/></media></para>
+    <para id="id27358767">Khi nhập một toán hạng mà chỉ số của nó có nhiều hơn 2 ký tự thì cần phải đặt các chỉ số đó trong cặp ngoặc bao {}.</para>
+    <para id="id26030362">VD1: $$z = \sqrt{x^2 + y^2}$$cho kết quảz = 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:msup><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {x rSup { size 8{2} } +y rSup { size 8{2} } } } {}</m:annotation></m:semantics></m:math></para>
+    <para id="id26814530">VD2:$$\sum_{k=1}^n k$$cho kết quả<media id="id2355838" alt=""><image src="../../media/graphics3-fc06.png" mime-type="image/png" height="33" width="37"/></media></para>
+    <para id="id25686769">VD3:$$\frac{n(n+1)}{2}$$cho kết quả<media id="id8082968" alt=""><image src="../../media/graphics4-bbd6.png" mime-type="image/png" height="35" width="50"/></media></para>
+    <para id="id25513494">VD4:$$\lim_{x\to\infty}f(x)= 0$$cho kết quả<media id="id4288687" alt=""><image src="../../media/graphics5-a8c3.png" mime-type="image/png" height="26" width="133"/></media></para>
+    <list id="id27244876" list-type="bulleted">
+      <item>Phân số: : \frac, ví dụ: \frac x2 =  <media id="id8048713" alt=""><image src="../../media/graphics6-fc3a.png" mime-type="image/png" height="24" width="8"/></media></item>
+      <item>Căn bậc 2: \sqrt, ví dụ: \sqrt{\frac12}  <media id="id6438714" alt=""><image src="../../media/graphics7-75e4.png" mime-type="image/png" height="30" width="25"/></media></item>
+      <item>\lbrace...\rbrace  <media id="id8749956" alt=""><image src="../../media/graphics8-c3b9.png" mime-type="image/png" height="20" width="25"/></media></item>
+      <item>Sub/Superscripts: A_i\A^n, ví dụ: A_{u,v}^k  <media id="id5963009" alt=""><image src="../../media/graphics9-1cf9.png" mime-type="image/png" height="24" width="42"/></media>, hay A_{u_i,v_j}^{k_m^n}  <media id="id3004881" alt=""><image src="../../media/graphics10-b8ea.png" mime-type="image/png" height="36" width="58"/></media></item>
+      <item>Tổng Sích-ma: \sum, ví dụ: \sum_{i=1}^n i = \frac{n(n+1)}2  <media id="id8549312" alt=""><image src="../../media/graphics11-3923.png" mime-type="image/png" height="38" width="142"/></media></item>
+    </list>
+    <para id="id25561688">để các cận nằm chính xác ở trên và dưới của ký hiệu tổng Sich-ma, thêm \displaystyle vào trước công thức</para>
+    <para id="id26831613">\displaystyle\sum_{i=1}^n i = \frac{n(n+1)}2  <media id="id7246974" alt=""><image src="../../media/graphics12-9816.png" mime-type="image/png" height="51" width="108"/></media></para>
+    <list id="id25303779" list-type="bulleted">
+      <item>Vectơ: \vec, ví dụ: \vec v  <media id="id5944579" alt=""><image src="../../media/graphics13-d149.png" mime-type="image/png" height="15" width="8"/></media>, hay \widevec{ABC}  <media id="id3545221" alt=""><image src="../../media/graphics14-1c39.png" mime-type="image/png" height="23" width="50"/></media></item>
+      <item>Dấu mũ: \hat{ }, ví dụ: \widehat{ABC}  <media id="id8162344" alt=""><image src="../../media/graphics15-3475.png" mime-type="image/png" height="23" width="50"/></media></item>
+      <item>Ma trận: \begin{matrix} a&amp;b\\c&amp;d \end{matrix}  <media id="id1168008833438" alt=""><image src="../../media/graphics16-03a1.png" mime-type="image/png" height="29" width="25"/></media></item>
+      <item>Giới hạn: \lim_{x\to\infty}\frac1x=0  <media id="id4345430" alt=""><image src="../../media/graphics17-f4cb.png" mime-type="image/png" height="30" width="92"/></media></item>
+      <item>Sin và Cosin: ví dụ sin^2\theta+cos^2\theta  <media id="id5244300" alt=""><image src="../../media/graphics18-826e.png" mime-type="image/png" height="18" width="108"/></media></item>
+      <item>Các công thức khác:</item>
+    </list>
+    <para id="id26076127">\arccos \arcsin \arctan \arg \cos \cosh \cot \coth \csc \deg \det_ \dim \exp \gcd_ \hom \inf_ \ker \lg \lim_ \liminf_ \limsup_ \ln \log \max_ \min_ \Pr_ \sec \sin \sinh \sup_ \tan \tanh</para>
+    <list id="id25107699" list-type="bulleted">
+      <item>Các dấu ngoặc:</item>
+    </list>
+    <para id="id26085082">\left( ... \right)  ‘(‘ và ‘)’</para>
+    <para id="id27030756">\left[ ... \right]  ‘[’ và ‘]’</para>
+    <para id="id25749960">\left\{ ... \right\}  ‘{’ và ‘}’</para>
+    <para id="id24466115">\left| ... \right|  ‘|’ và ‘|’</para>
+    <para id="id27264894">\left\| ... \right\|  ‘||’ và ‘||’</para>
+    <para id="id25518460">\left\{ ... \right., </para>
+    <para id="id26040062">Ví dụ: y   =   \left\{   \text{this\\that}   \right.  <media id="id1168006460494" alt=""><image src="../../media/graphics19-97b3.png" mime-type="image/png" height="36" width="83"/></media></para>
+    <list id="id26134038" list-type="bulleted">
+      <item>Để in ký tự khoảng trắng có thể dùng các cú pháp như: \, \: \; \quad \qquad,\_. Tuy nhiên, theo tác giả khuyến cáo nên dùng cú pháp: \hspace{ x}, với x là số pixel của khoảng trắng, ví dụ:</item>
+    </list>
+    <para id="id24849326">(ab\hspace9cd\hspace{25}ef)  <media id="id8309099" alt=""><image src="../../media/graphics20-59d0.png" mime-type="image/png" height="20" width="108"/></media></para>
+    <list id="id27239916" list-type="bulleted">
+      <item>Ký tự xuống dòng: ‘\\’, ví dụ:x=1\\y=2\\z=3  <media id="id8401173" alt=""><image src="../../media/graphics21-d9de.png" mime-type="image/png" height="52" width="42"/></media></item>
+      <item>Để hiển thị văn bản bên trong công thức sử dụng cú pháp: \text{abc def}, ví dụ: y=\left\{x/2\text{ if x even}\\(x+1)/2\text{ if odd}\right.  <media id="id1168008757997" alt=""><image src="../../media/graphics22-d4b4.png" mime-type="image/png" height="50" width="167"/></media></item>
+      <item>Kích cỡ (font size):\tiny\sqrt{a^2+b^2}  <media id="id8640933" alt=""><image src="../../media/graphics23-affa.png" mime-type="image/png" height="14" width="42"/></media>\small\sqrt{a^2+b^2}    <media id="id6779044" alt=""><image src="../../media/graphics24-0972.png" mime-type="image/png" height="16" width="50"/></media>\normalsize\sqrt{a^2+b^2}   <media id="id8485989" alt=""><image src="../../media/graphics25-aadf.png" mime-type="image/png" height="24" width="58"/></media></item>
+    </list>
+    <para id="id24864522">\large\sqrt{a^2+b^2}    <media id="id8505469" alt=""><image src="../../media/graphics26-0165.png" mime-type="image/png" height="34" width="67"/></media></para>
+    <para id="id25058400">\Large\sqrt{a^2+b^2}   <media id="id6466716" alt=""><image src="../../media/graphics27-02c3.png" mime-type="image/png" height="34" width="83"/></media></para>
+    <para id="id27264866">\LARGE\sqrt{a^2+b^2}   <media id="id4399201" alt=""><image src="../../media/graphics28.png" mime-type="image/png" height="41" width="92"/></media></para>
+    <para id="id26009061">\huge\sqrt{a^2+b^2}   <media id="id3309129" alt=""><image src="../../media/graphics29.png" mime-type="image/png" height="46" width="108"/></media></para>
+    <para id="id25168965">\Huge\sqrt{a^2+b^2} <media id="id4397790" alt=""><image src="../../media/graphics30.png" mime-type="image/png" height="61" width="125"/></media></para>
+    <para id="id27564306">(\frac1{\sqrt2}x+y) (\frac1{\sqrt2}x-y)  </para>
+    <list id="id25990766" list-type="bulleted">
+      <item>Các ký tự đặc biệt:</item>
+    </list>
+    <para id="id26099617">
+      <media id="id1168008602272" alt=""><image src="../../media/graphics31.png" mime-type="image/png" height="342" width="450"/></media>
+    </para>
+    <list id="id25485337" list-type="bulleted">
+      <item>Các ký hiệu</item>
+    </list>
+    <figure id="id26325645">
+      <media id="id7808359" alt=""><image src="../../media/graphics32.png" mime-type="image/png" height="362" width="463"/></media>
+    </figure>
+    <figure id="id27030026">
+      <media id="id5628420" alt=""><image src="../../media/graphics33.png" mime-type="image/png" height="362" width="463"/></media>
+    </figure>
+    <para id="id27030051">Một số ký hiệu khác như:</para>
+    <list id="id27124560" list-type="bulleted">
+      <item>\omega  <media id="id4013528" alt=""><image src="../../media/graphics34.png" mime-type="image/png" height="11" width="17"/></media></item>
+      <item>a \not= b  <media id="id1168008780137" alt=""><image src="../../media/graphics35.png" mime-type="image/png" height="24" width="33"/></media></item>
+      <item>a \not\in \mathbb{Q}  <media id="id8900326" alt=""><image src="../../media/graphics36.png" mime-type="image/png" height="24" width="33"/></media></item>
+      <item>\cancel{ABC}  <media id="id5631752" alt=""><image src="../../media/graphics37.png" mime-type="image/png" height="16" width="50"/></media></item>
+      <item>\sout{ABC}  <media id="id3429831" alt=""><image src="../../media/graphics38.png" mime-type="image/png" height="13" width="50"/></media></item>
+      <item>\overline{ABC}  <figure id="id26051152"><media id="id4802146" alt=""><image src="../../media/graphics39.png" mime-type="image/png" height="17" width="50"/></media></figure></item>
+      <item>\underline{ABC}  <figure id="id21459288"><media id="id3383850" alt=""><image src="../../media/graphics40.png" mime-type="image/png" height="17" width="50"/></media></figure></item>
+      <item>….</item>
+    </list>
+    <para id="id24644593">Ngoài ra còn một số cú pháp khác có thể tham khảo thêm tại địa chỉ website : <link url="http://www.forkosh.com/mimetextutorial.html">http://www.forkosh.com/mimetextutorial.html</link></para>
+  </content>
+</document>

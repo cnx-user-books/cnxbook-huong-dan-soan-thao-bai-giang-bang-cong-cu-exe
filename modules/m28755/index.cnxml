@@ -1,0 +1,69 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Xây dựng cấu trúc nội dung của bài giảng điện tử</title>
+  <metadata>
+  <md:content-id>m28755</md:content-id><md:title>Xây dựng cấu trúc nội dung của bài giảng điện tử</md:title>
+  <md:abstract/>
+  <md:uuid>7e7e268f-33e5-41c4-abfe-526959c45e3c</md:uuid>
+</metadata>
+
+<content>
+    <section id="id-569214202059">
+      <title>Mô hình cấu trúc nội dung bài giảng điện tử.</title>
+      <para id="id26513842">Trong môi trường E-Learning, một bài giảng điện tử được phân thành nhiều mô đun khác nhau. Trong mỗi mô đun, có thể tách thành các mô đun nhỏ hơn…(chúng ta có thể hình dung một cấu trúc cây các mô đun). Như vậy, chúng ta có thể coi một khoá học như là một mô đun chính, chứa các mô đun nhỏ hơn:</para>
+      <para id="id26832677">Việc phân chia thành các môđun như vậy sẽ đem lại nhiều lợi điểm:</para>
+      <list id="id25499578" list-type="bulleted">
+        <item>Người kiến tạo nội dung có thể đưa ra một cấu trúc cây nội dung hoàn chỉnh, sau đó có thể phân chia cho những người tham gia viết nội dung, mỗi người phụ trách một hoặc một số môđun nào đó.</item>
+        <item>Bản thân mỗi mô đun sẽ được đóng gói lại theo các chuẩn định trước. Mỗi gói này khi đóng gói sẽ có kích thước khác nhau. Việc tách nhỏ nội dung sẽ cho phép chúng ta dễ dàng tải từng phần lên mạng rồi ghép lại với nhau. Đối với những gói quá lớn, khả năng bị ngắt mạng hoặc lỗi truyền tải sẽ rất cao.</item>
+      </list>
+    </section>
+    <section id="id-527807267472">
+      <title>Xây dựng cấu trúc bài giảng trong eXe.</title>
+      <para id="id27342509">Tương tự như theo mô hình SCORM, các gói nội dung (môđun) trong eXe được phân chia thành các trang (page). </para>
+      <para id="id26646703">Để xây dựng đề cương cho tài liệu, chúng ta sử dụng ô Outline và các nút xung quanh ô này:</para>
+      <section id="id-163733250373">
+        <title>Thêm một nhánh trên cây đề cương</title>
+        <para id="id25645483">Để thêm một nhánh của cây đề cương, ta làm như sau:</para>
+        <list id="id26373623" list-type="bulleted">
+          <item>Bấm chọn vị trí cần đưa vào cây đề cương</item>
+          <item>Bấm chọn nút Add page</item>
+          <item>Sau khi bấm nút Add Page, cây đề cương sẽ xuất hiện một trang mới.</item>
+        </list>
+        <figure id="id22221356">
+          <media id="id1165980298357" alt=""><image src="../../media/graphics1-a816.png" mime-type="image/png" height="147" width="220"/></media>
+        </figure>
+      </section>
+      <section id="id-431207539596">
+        <title>Đổi tên một nhánh trên cây đề cương</title>
+        <para id="id24102566">Để đổi tên một nhánh trên cây đề cương, ta làm như sau:</para>
+        <list id="id21126020" list-type="bulleted">
+          <item>Kích đúp chuột vào nhánh cần đổi tên. Hộp thoại sẽ hiển thị như hình bên.</item>
+          <item>Nhập tên mới cho nhánh (trang) vào ô Enter the new name.</item>
+          <item>Bấm OK để hoàn thành việc đổi tên.</item>
+        </list>
+        <figure id="id27304703">
+          <media id="id1165982733859" alt=""><image src="../../media/graphics2-e43e.png" mime-type="image/png" height="170" width="340"/></media>
+        </figure>
+      </section>
+      <section id="id-6981832269">
+        <title>Xoá một nhánh trên cây đề cương</title>
+        <para id="id26832756">Để xoá một nhánh trên cây đề cương, ta làm như sau:</para>
+        <list id="id24496838" list-type="bulleted">
+          <item>Kích chọn nhánh cần xoá</item>
+          <item>Kích chọn nút Delete</item>
+          <item>Bấm chọn OK để xác nhận xoá trang.</item>
+        </list>
+      </section>
+      <section id="id-811802889755">
+        <title>Thay đổi vị trí các trang</title>
+        <para id="id25631886">Để thay đổi vị trí của một trang, ta có thể sử dụng các nút điều khiển ở ngay phía dưới ô Outline:</para>
+        <list id="id26117074" list-type="bulleted">
+          <item>Để thay đổi cấp độ sâu của một nhánh, ta sử dụng các phím </item>
+          <item>Để thay đổi vị trí của các nhánh trong cùng một cấp, ta có thể sử dụng các nút  (lên trên một nấc) hay  (xuống dưới một nấc).</item>
+        </list>
+        <figure id="id25332083">
+          <media id="id6407306" alt=""><image src="../../media/graphics3-2a0d.png" mime-type="image/png" height="218" width="413"/></media>
+        </figure>
+      </section>
+    </section>
+  </content>
+</document>

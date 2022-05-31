@@ -1,0 +1,389 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Xây dựng nội dung cho các nút thông qua các iDevice</title>
+  <metadata>
+  <md:content-id>m30912</md:content-id><md:title>Xây dựng nội dung cho các nút thông qua các iDevice</md:title>
+  <md:abstract/>
+  <md:uuid>3a76e48c-bf94-476a-adf8-530538e084b8</md:uuid>
+</metadata>
+
+<content>
+    <section id="id-583092800276">
+      <title>Cấu trúc của một trang tài liệu trong eXe</title>
+      <para id="id25992737">Một trang tài liệu trong eXe được cấu thành bởi một hoặc nhiều thành phần riêng biệt gọi là các iDevice nằm xen kẽ lẫn nhau. Mỗi iDevice sẽ xác định một nội dung cụ thể, chẳng hạn có iDevice để hiển thị một hình ảnh, có iDevice để xây dựng một thư viện ảnh, có iDevice cho phép nhập nội dung xác định mục tiêu của bài học…</para>
+      <para id="id27308368">Bảng. Danh sách một số iDevice trong eXe:</para>
+      <table id="id27308377" summary="">
+        <tgroup cols="2">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <tbody>
+            <row>
+              <entry>Activity</entry>
+              <entry>Các hoạt động xảy ra trong quá trình học</entry>
+            </row>
+            <row>
+              <entry>Attachment</entry>
+              <entry>Đính kèm một file vào nội dung học tập</entry>
+            </row>
+            <row>
+              <entry>Case Study</entry>
+              <entry>Một câu chuyện có liên quan đến nội dung học tập, qua đó có thể đưa vào các câu hỏi thảo luận và rút ra các kết luận.</entry>
+            </row>
+            <row>
+              <entry>Cloze Activity</entry>
+              <entry>Các câu hỏi điền khuyết hỗ trợ học viên nắm được nội dung bài học</entry>
+            </row>
+            <row>
+              <entry>External Website</entry>
+              <entry>Đưa một trang web vào nội dung học tập, qua đó học viên có thể duyệt nội dung của website ngay trong bài học mà không cần mở cửa sổ khác.</entry>
+            </row>
+            <row>
+              <entry>Free Text</entry>
+              <entry>Nhập văn bản đơn thuần vào nội dung tài liệu</entry>
+            </row>
+            <row>
+              <entry>Image Gallery</entry>
+              <entry>Nhập một thư viện ảnh vào nội dung tài liệu</entry>
+            </row>
+            <row>
+              <entry>Image Magnifier</entry>
+              <entry>Cho phép xem phóng đại một ảnh được chèn vào.</entry>
+            </row>
+            <row>
+              <entry>Image with text</entry>
+              <entry>Chèn một ảnh và văn bản (nếu cần) vào tài liệu</entry>
+            </row>
+            <row>
+              <entry>Multi choice question</entry>
+              <entry>Câu hỏi đa lựa chọn</entry>
+            </row>
+            <row>
+              <entry>Objective</entry>
+              <entry>Nhập nội dung là mục tiêu, mục đích của quá trình học</entry>
+            </row>
+            <row>
+              <entry>Preknowlege</entry>
+              <entry>Các kiến thức cần có để có thể tham gia khoá học</entry>
+            </row>
+            <row>
+              <entry>Reading Activity</entry>
+              <entry>Một thu gọn của Case study với một hoạt động</entry>
+            </row>
+            <row>
+              <entry>Reflection</entry>
+              <entry>Cho phép đưa vào các câu hỏi phản chiếu</entry>
+            </row>
+            <row>
+              <entry>Scorm Quiz</entry>
+              <entry>Câu hỏi đa lựa chọn theo chuẩn SCORM</entry>
+            </row>
+            <row>
+              <entry>True - False Question</entry>
+              <entry>Các câu hỏi đúng sai</entry>
+            </row>
+            <row>
+              <entry>Wikipedia Article</entry>
+              <entry>Đưa vào các nội dung của bộ từ điển bách khoa trực tuyến Wikipedia</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="id26225833">Thông thường, một bài học trong eXe có cấu trúc như sau:</para>
+      <para id="id26655449">Phần đầu: Xác định những mục tiêu cần đạt được, các yêu cầu đối với người học, các kiến thức cần biết để có thể hoàn thành khoá học</para>
+      <para id="id26814577">Tiếp đó là phần nội dung của bài học. Nội dung của bài học có thể chứa các hoạt động học tập như: các hoạt động đọc – trả lời câu hỏi, xem các đoạn video mô phỏng, giải quyết các bài tập, các thao tác thực hiện… Mỗi hoạt động này sẽ được thể hiện bởi một iDevice có chức năng tương đương.</para>
+      <para id="id25563845">Sau mỗi bài học là các bài tập dưới dạng các câu hỏi trắc nghiệm. </para>
+      <para id="id26655456">Chú ý rằng trong quá trình đào tạo trực tuyến, người giáo viên không trực tiếp gặp mặt học sinh, vì vậy không thể thực hiện trực tiếp các thao tác giảng dạy thông thường như trên lớp. Vì vậy, việc xây dựng nội dung đào tạo trực tuyến yêu cầu người giáo viên phải xây dựng ra các kịch bản, các thao tác ngắn gọn, dễ hiểu, cuốn hút người học vào nội dung học tập một cách tự giác.</para>
+    </section>
+    <section id="id-579231384215">
+      <title>Cách thức điều khiển các iDevice</title>
+      <para id="id25375877">Để đưa một iDevice vào trang tài liệu, ta kích chuột vào iDevice tương ứng. Khi đó, khung làm việc bên phải sẽ hiển thị mẫu biểu nhập thông tin cho iDevice.</para>
+      <para id="id25375885">Trong quá trình nhập thông tin cho iDevice, phía dưới mỗi iDevice sẽ có một thanh điều khiển với các nút như sau:</para>
+      <figure id="id25576077">
+        <media id="id1171459037312" alt=""><image src="../../media/graphics1-263b.png" mime-type="image/png" height="119" width="567"/></media>
+      </figure>
+      <list id="id26656952" list-type="bulleted">
+        <item>Nút có dấu check màu xanh được sử dụng để lưu lại nội dung của iDevice đó.</item>
+        <item>Nút Thùng rác được dùng để xoá iDevice</item>
+        <item>Nút tam giác hướng lên: Chuyển vị trí của iDevice trong trang nội dung lên phía trên</item>
+        <item>Nút tam giác hướng xuống: Chuyển vị trí của iDevice trong trang nội dung xuống phía dưới</item>
+        <item>Ô xổ xuống Move To sẽ cho phép chuyển iDevice từ trang nội dung hiện thời sang trang nội dung khác.</item>
+      </list>
+      <para id="id25748597">Để thay đổi nội dung chứa trong một ô iDevice, chúng ta kích đúp chuột vào iDevice đó. Khi đó, màn hình soạn thảo iDevice tương ứng sẽ hiển thị cho phép chúng ta soạn thảo hoặc xoá iDevice.</para>
+    </section>
+    <section id="id-204283756501">
+      <title>Các công cụ tích hợp chung trên các iDevice khác</title>
+      <para id="id27107357">Tất cả các iDevice đều có tích hợp công cụ hổ trợ giống nhau:</para>
+      <para id="id25423740">Chèn đoạn phim minh họa:</para>
+      <list id="id25423746" list-type="bulleted">
+        <item>Flash: *.swf, *. Flv</item>
+        <item>Windown media</item>
+        <item>MP3</item>
+        <item>Quick time</item>
+      </list>
+      <figure id="id27006684">
+        <media id="id9033649" alt=""><image src="../../media/graphics2-7ab0.png" mime-type="image/png" height="312" width="455"/></media>
+      </figure>
+      <para id="id26020760">Lưu ý: chúng ta phải chọn đúng định dạng tập tin muốn đưa vào.</para>
+      <para id="id26020767">Type: loại định dạng muốn đưa vào.</para>
+      <para id="id25031858">File/URL: đường dẫn đén tập tin.</para>
+      <para id="id25575922">Dememsions: kích thước thể hiện của đoạn phim minh họa.</para>
+      <para id="id25575929">Khi chọn xong nhấn nút “Insert” để thêm vào.</para>
+      <list id="id24805048" list-type="bulleted">
+        <item>Chèn công thức toán học</item>
+      </list>
+      <figure id="id25054978">
+        <media id="id8962109" alt=""><image src="../../media/graphics3-a814.png" mime-type="image/png" height="400" width="489"/></media>
+      </figure>
+      <para id="id21699361"/>
+      <list id="id25288282" list-type="bulleted">
+        <item>Font size: kích cở chữ</item>
+        <item>Input latex: nhập vào công thức toán tại đây</item>
+        <item>Nút “Preview” xem công thức trước khi đưa vào</item>
+      </list>
+      <para id="id27314622">Khi soạn xong công thức toán nhấn nút Insert để thêm vào. Hoặc nhấn Cacel để hủy bỏ.</para>
+    </section>
+    <section id="id-979806703693">
+      <title>Các iDevice xác định mục tiêu, yêu cầu đào tạo</title>
+      <section id="id-30182871839">
+        <title>iDevice xác định mục tiêu của bài học (Objective)</title>
+        <para id="id22511800">Để đưa phần nội dung xác định mục tiêu vào bài học, ta sử dụng iDevice Objective. Thao tác cụ thể như sau:</para>
+        <para id="id22702100">Bước 1: Kích chọn iDevice Objective trong danh sách iDevice. Khi đó, phần nội dung bên phải sẽ hiển thị ra mẫu có dạng sau:</para>
+        <figure id="id26080833">
+          <media id="id1171458221505" alt=""><image src="../../media/graphics4-a8f3.png" mime-type="image/png" height="298" width="637"/></media>
+        </figure>
+        <para id="id16462043">Bước 2: Ta có thể thay đổi tiêu đề Objectives bởi một tiêu đề khác bằng tiếng Việt, ví dụ như: “Mục tiêu” hay “Mục đích”…</para>
+        <para id="id26832643">Bước 3: Trong ô soạn thảo ở dưới, ta có thể nhập nội dung của mục tiêu. Ta cũng có thể sử dụng các thanh công cụ để soạn thảo, trình bày nội dung cho đẹp (giống như trên Word).</para>
+        <para id="id24802389">Bước 4: Kích chuột vào nút dấu check màu xanh ở góc dưới bên trái của iDevice để lưu lại nội dung của iDevice đó.</para>
+      </section>
+      <section id="id-344902217371">
+        <title>iDevice xác định các kiến thức cần biết trước (preknowledge)</title>
+        <para id="id27168318">Tương tự như iDevice Objective, iDevice này cho phép chúng ta nhập các yêu cầu về các kiến thức tối thiểu cần phải biết trước khi tiến hành bài học.</para>
+        <para id="id25686855">Để đưa iDevice Preknowledge vào nội dung, ta kích chuột vào iDevice Preknowledge ở bên trái. Khi đó, phần nội dung sẽ hiển thị mẫu nhập thông tin như sau:</para>
+        <figure id="id27231379">
+          <media id="id1171458968271" alt=""><image src="../../media/graphics5-1bdb.png" mime-type="image/png" height="349" width="630"/></media>
+        </figure>
+        <para id="id27072215">Ta có thể thay đổi chữ Preknowledge bằng nội dung tiếng Việt, chẳng hạn như: “Yêu cầu về kiến thức đã được biết:”</para>
+        <para id="id25104366">Trong ô soạn thảo, ta nhập các nội dung yêu cầu học viên cần phải biết trước khi tham gia bài học.</para>
+        <para id="id25104375">Sau khi nhập nội dung, kích chọn vào nút check màu xanh ở góc dưới bên trái của iDevice để lưu nội dung.</para>
+      </section>
+    </section>
+    <section id="id-253316869881">
+      <title>Các iDevice nhập nội dung</title>
+      <section id="id-821161299912">
+        <title>Nhập nội dung là văn bản đơn thuần với iDevice Free Text</title>
+        <para id="id25561606">iDevice Free Text cho phép chúng ta nhập một đoạn văn bản đơn thuần (không có hình ảnh) vào bài học. iDevice này cũng cho phép định dạng văn bản đơn giản và chèn bảng biểu cũng như một số ký tự đặc biệt.</para>
+        <para id="id27413210">Để thực hiện điều này, ta làm như sau:</para>
+        <para id="id25561612">Bước 1: Kích chọn iDevice Free text từ danh sách iDevice. Khi đó, mẫu nhập nội dung văn bản có dạng sau:</para>
+        <figure id="id21155401">
+          <media id="id3753958" alt=""><image src="../../media/graphics6-df4f.png" mime-type="image/png" height="265" width="630"/></media>
+        </figure>
+        <para id="id26434758">Bước 2: Nhập nội dung văn bản vào ô soạn thảo. Ta có thể thực hiện chèn bảng biểu, một số ký tự đặc biệt, định dạng nghiêng, đậm, gạch dưới…</para>
+        <para id="id25271841">Bước 3: Kích chọn vào nút check màu xanh ở góc dưới bên trái của iDevice để lưu nội dung.</para>
+      </section>
+      <section id="id-239423351999">
+        <title>Nhập nội dung là một thư viện ảnh bằng iDevice Image Gallery</title>
+        <para id="id25783723">Thư viện ảnh có thể coi là một album với nhiều hình ảnh có cùng một chủ đề nào đó. Trên Internet, mỗi thư viện ảnh sẽ hiển thị hình ảnh thu nhỏ của các ảnh trong thư viện, khi người dùng kích chuột vào ảnh thì ảnh đó sẽ được mở ra với kích thước thực sự của nó.</para>
+        <para id="id25956409">Khi xây dựng nội dung dạy học, trong một số trường hợp chúng ta cần đưa vào những thư viện ảnh để giúp học viên có thể hiểu nội dung một cách nhanh chóng. Đây là một trong những khác biệt lớn đối với các tài liệu là sách báo truyền thống.</para>
+        <para id="id25194533">Để đưa một thư viện ảnh vào nội dung, ta làm như sau:</para>
+        <para id="id26801872">Bước 1: Kích chọn iDevice Image Gallery. Khi đó, màn hình nhập nội dung iDevice hiển thị như sau:</para>
+        <figure id="id25284528">
+          <media id="id8901664" alt=""><image src="../../media/graphics7-f4e8.png" mime-type="image/png" height="144" width="469"/></media>
+        </figure>
+        <para id="id27231245">Bước 2: Nhập tiêu đề cho thư viện ảnh trong ô Title</para>
+        <para id="id21428971">Bước 3: Để đưa một ảnh vào thư viện, ta kích chọn nút Add images. Khi đó, eXe sẽ hiển thị hộp thoại cho phép ta lựa chọn hình ảnh cần đưa vào.</para>
+        <figure id="id27275740">
+          <media id="id5299779" alt=""><image src="../../media/graphics8-b243.png" mime-type="image/png" height="322" width="413"/></media>
+        </figure>
+        <para id="id24237793">Ở dưới mỗi hình ảnh sẽ có một số hộp điều khiển</para>
+        <list id="id24237799" list-type="bulleted">
+          <item>Ô nhập tiêu đề: Mỗi hình ảnh đều có thể có một tiêu đề riêng. Chúng ta nhập tiêu đề cho hình ảnh trên ô này.</item>
+          <item>Nút hình thùng rác được sử dụng để xoá ảnh khỏi thư viện</item>
+          <item>Các nút mũi tên được sử dụng để thay đổi vị trí của ảnh trong thư viện. Nút mũi tên sang trái sẽ dịch chuyển ảnh sang bên trái, nút mũi tên hướng sang phải sẽ dịch chuyển hình ảnh sang bên phải.</item>
+        </list>
+        <para id="id27058489">Sau khi hoàn thành nhập thư viện ảnh, ta bấm dấu check màu xanh ở góc dưới iDevice để lưu lại nội dung của iDevice.</para>
+      </section>
+      <section id="id-93999399622">
+        <title>Nhập nội dung là một hình ảnh có thể phóng to bằng kính lúp (Image Magnifier)</title>
+        <para id="id27342623">iDevice này được dùng để đưa một ảnh vào bài giảng, và cho phép phóng to từng phần của ảnh thông qua một “kính lúp” ảo. Nếu ảnh đưa vào có độ phân giải càng lớn thì độ phóng to càng lớn.</para>
+        <para id="id26073408">Để làm điều này, ta thực hiện như sau:</para>
+        <para id="id27342629">Kích chọn iDevice Image Magnifier. Khi đó, màn hình soạn thảo nội dung cho iDevice này có dạng như sau :</para>
+        <figure id="id25275450">
+          <media id="id1171458156068" alt=""><image src="../../media/graphics9-598d.png" mime-type="image/png" height="406" width="577"/></media>
+        </figure>
+        <para id="id26107251">Trong ô Caption, ta nhập tiêu đề cho bức ảnh</para>
+        <para id="id26043551">Trong ô soạn thảo văn bản, ta nhập đoạn văn bản hiển thị cùng với ảnh. Đoạn văn bản này có thể được sử dụng để mô tả hình ảnh.</para>
+        <para id="id24849404">Để đưa ảnh vào, ta kích chọn Select an image (JPG file). Chú ý rằng hệ thống chỉ chấp nhận ảnh với định dạng JPEG (có đuôi là *.jpg).</para>
+        <para id="id24849408">Trong hai ô Display as, ta chọn kích thước hiển thị của ảnh (tính theo pixel). Nếu muốn giữ nguyên kích thước ảnh, ta để trống hai ô này</para>
+        <para id="id27312252">Trong ô Align, ta kích chọn chế độ canh chỉnh giữa hình ảnh và đoạn tài liệu đi kèm (left: trái, right: phải)</para>
+        <para id="id27417025">Trong ô Initial zoom, ta chọn chế độ phóng to ban đầu (tối thiểu là 100%)</para>
+        <para id="id24322225">Trong ô Maximum zoom, ta chọn chế độ phóng to tối đa. (tối đa là 200%)</para>
+        <para id="id26889515">Trong ô Size of magnifying glass, ta chọn kích thước kính.</para>
+        <para id="id26889522">Sau khi lựa chọn xong, kích chọn dấu check màu xanh để lưu nội dung của iDevice. </para>
+        <para id="id27173054">Khi đưa lên web, hình ảnh sẽ được đặt dưới một kính lúp, học viên sẽ di chuột và kích chọn vị trí cần phóng đại để xem chi tiết. Học viên cũng có thể thay đổi độ phóng đại, kích thước thấu kính để xem:</para>
+      </section>
+      <section id="id-506423710476">
+        <title>Nhập nội dung là một file RSS</title>
+        <para id="id27047505">RSS là một chuẩn dựa trên XML được sử dụng để trao đổi thông tin giữa các website. Mỗi bài viết sẽ được phân tách thành các phần thông tin riêng biệt thông qua ngôn ngữ đánh dấu mở rộng XML như : tiêu đề, tác giả, tóm tắt, nội dung…</para>
+        <para id="id27014445">Để đưa một địa chỉ RSS vào tài liệu, ta làm như sau :</para>
+        <para id="id27047513">Bước 1 : Kích chọn iDevice RSS. Khi đó, mẫu nhập thông tin sẽ hiển thị như sau :</para>
+        <figure id="id26432268">
+          <media id="id1171458959588" alt=""><image src="../../media/graphics10-82ae.png" mime-type="image/png" height="330" width="630"/></media>
+        </figure>
+        <para id="id24140028">Bước 2 : Nhập địa chỉ URL của file RSS vào ô RSS URL</para>
+        <para id="id25523446">Bước 3: Kích chọn nút Load để tải nội dung thông tin của file RSS.</para>
+        <para id="id27058350">Bước 4: Kích chọn dấu check màu xanh ở góc dưới bên trái để lưu nội dung thông tin.</para>
+      </section>
+      <section id="id-367724915942">
+        <title>Nhập nội dung là một khung (frame) chứa website bên ngoài</title>
+        <para id="id26988381">Trong trường hợp chúng ta muốn học viên có thể duyệt một trang web chứa thông tin bên ngoài mà không phải rời khỏi trang web đang hiển thị khóa học của chúng ta, ta có thể đưa luôn trang web đó vào một khung cửa sổ hiển thị bên trong nội dung bài giảng.</para>
+        <para id="id26523948">Để làm điều này, ta thực hiện như sau:</para>
+        <para id="id26431720">Bước 1: Kích chọn iDevice External Website. Khi đó hệ thống sẽ hiển thị mẫu biểu như sau:</para>
+        <figure id="id25064907">
+          <media id="id1171459016024" alt=""><image src="../../media/graphics11-7f82.png" mime-type="image/png" height="155" width="550"/></media>
+        </figure>
+        <para id="id25061100">Bước 2: Nhập địa chỉ URL của wesite muốn đưa vào</para>
+        <para id="id25525519">Bước 3: Kích chọn chiều cao của khung hình hiển thị trong ô Frame Height.</para>
+        <para id="id25057654">Bước 4: Kích chọn nút dấu check màu xanh ở góc dưới bên trái để hoàn thành công việc.</para>
+      </section>
+    </section>
+    <section id="id-07584960829">
+      <title>Các iDevice điều khiển hoạt động học tập</title>
+      <para id="id25760548">Trong eXe có nhiều iDevice được thiết kế để giúp học viên tương tác với hệ thống, qua đó giúp cho học viên nắm được nội dung đào tạo. Phần lớn các hoạt động này tập trung vào việc đưa ra các câu hỏi để học viên tự trả lời.</para>
+      <para id="id26431744">Các câu hỏi trong eXe được đưa vào nhằm mục đích hỗ trợ quá trình học tập của học viên chứ không phải là để kiểm tra, đánh giá hay tính điểm.</para>
+      <para id="id26325352">Exe hỗ trợ một số loại câu hỏi sau: câu hỏi điền khuyết, câu hỏi đa lựa chọn, câu hỏi dạng đọc hiểu, câu hỏi đúng sai.</para>
+      <section id="id-652361199363">
+        <title>Câu hỏi điền khuyết (Cloze Activity)</title>
+        <para id="id26053834">Câu hỏi điền khuyết (điền vào chỗ trống) cho phép giáo viên nhập vào một đoạn văn bản, sau đó ẩn một số từ và yêu cầu học viên điền đúng từ đã ẩn vào chỗ trống.</para>
+        <para id="id27070046">Để thực hiện điều này, ta làm như sau :</para>
+        <para id="id27358504">Bước 1 : Kích chọn iDevice Cloze Activity. iDevice này sẽ hiển thị như sau:</para>
+        <figure id="id27172332">
+          <media id="id1171458949296" alt=""><image src="../../media/graphics12-3b4d.png" mime-type="image/png" height="467" width="630"/></media>
+        </figure>
+        <para id="id26082249">Bước 2: Nhập dòng tiêu đề hướng dẫn vào ô Instructions, chẳng hạn như: “Đọc đoạn văn bản sau đây và điền từ vào chỗ trống”:nếu không mặc định như trên</para>
+        <para id="id25686660">Bước 3: Trong ô Cloze Text, nhập đoạn văn bản mẫu.</para>
+        <para id="id26816436">Bước 4: Đánh dấu từ cần ẩn, sau đó bấm chọn Hide/Show Word. Khi đó từ bị ẩn sẽ được đánh dấu gạch dưới để phân biệt với các từ thông thường. </para>
+        <figure id="id27342481">
+          <media id="id8831413" alt=""><image src="../../media/graphics13-2fff.png" mime-type="image/png" height="234" width="630"/></media>
+        </figure>
+        <para id="id25121946">Ta có thể lặp lại bước 4 nhiều lần để ẩn nhiều từ khác.</para>
+        <para id="id25121952">Bước 5: Kích chọn dấu check màu xanh để lưu nội dung trong iDevice. </para>
+        <para id="id25121747">Sau khi hoàn thành việc soạn thảo câu hỏi, trên trang soạn thảo sẽ hiển thị câu hỏi điền từ có dạng:</para>
+        <figure id="id25684312">
+          <media id="id1171458213535" alt=""><image src="../../media/graphics14-eae3.png" mime-type="image/png" height="255" width="500"/></media>
+        </figure>
+        <para id="id25561642">Học viên sẽ nhập các từ còn thiếu vào các ô trống trên đoạn tài liệu và bấm Submit, khi đó, hệ thống sẽ hiển thị các câu trả lời đúng với màu xanh, câu trả lời sai với màu đỏ, và số điểm của học viên:</para>
+        <figure id="id27259114">
+          <media id="id8941366" alt=""><image src="../../media/graphics15-9e20.png" mime-type="image/png" height="276" width="562"/></media>
+        </figure>
+        <para id="id25561602">Nếu học viên muốn làm lại, học viên có thể bấm nút Restart, còn trong trường hợp muốn xem đáp án, học viên có thể bấm nút Show Answers.</para>
+      </section>
+      <section id="id-44151418173">
+        <title>Câu hỏi đúng sai (True – False Question)</title>
+        <para id="id27358706">Câu hỏi đúng sai là dạng câu hỏi mà học viên chỉ có thể lựa chọn một trong hai phương án trả lời là đúng hoặc sai.</para>
+        <para id="id26798220">Để đưa một câu hỏi đúng sai vào tài liệu, ta làm như sau:</para>
+        <para id="id24676178">Bước 1: Chọn iDevice True - False Question</para>
+        <para id="id27168913">Bước 2 : Trong ô văn bản True – False Question, ta có thể nhập tiêu đề tiếng Việt như : Câu hỏi đúng - sai.</para>
+        <figure id="id27018656">
+          <media id="id1171458874954" alt=""><image src="../../media/graphics16-a32f.png" mime-type="image/png" height="165" width="630"/></media>
+        </figure>
+        <para id="id27352312">Bước 3 : Trong ô Instructions, hãy nhập những chỉ dẫn cần thiết nếu có.</para>
+        <para id="id27070197">Bước 4 : Soạn thảo câu hỏi :</para>
+        <para id="id25499700">Trong ô Question, ta nhập câu hỏi. Chú ý rằng câu hỏi ở đây chỉ có thể mang giá trị đúng hoặc sai.</para>
+        <figure id="id26891125">
+          <media id="id1171458158319" alt=""><image src="../../media/graphics17-c4d2.png" mime-type="image/png" height="179" width="630"/></media>
+        </figure>
+        <para id="id27172249">Sau khi nhập xong câu hỏi, ta lựa chọn giá trị của câu hỏi : Đúng (true), Sai (false) bằng cách kích chuột vào một trong hai giá trị True hoặc False tương ứng.</para>
+        <para id="id27172259">Nếu ta muốn gửi một phản hồi nào đó tới học viên khi người dùng kích chọn câu trả lời, ta có thể nhập dòng tin phản hồi vào ô Feedback :</para>
+        <figure id="id26814432">
+          <media id="id5164009" alt=""><image src="../../media/graphics18-e93e.png" mime-type="image/png" height="130" width="630"/></media>
+        </figure>
+        <para id="id27154985">Nếu ta muốn hiển thị phần gợi ý cho các học viên, ta có thể nhập thông tin gợi ý vào ô Hint :</para>
+        <figure id="id24237767">
+          <media id="id1171458180548" alt=""><image src="../../media/graphics19-3ae2.png" mime-type="image/png" height="241" width="630"/></media>
+        </figure>
+        <para id="id26351480">Ta có thể bổ sung nhiều câu hỏi khác bằng cách kích chọn nút Add Another Question, sau đó thực hiện lại bước 4 đối với câu hỏi mới.</para>
+        <para id="id27244586">Trong trường hợp muốn xoá một câu hỏi, ta bấm nút gạch chéo đỏ.</para>
+        <para id="id26351484">Sau khi hoàn thành việc nhập câu hỏi, ta bấm chọn nút dấu check màu xanh để lưu nội dung trong iDevice.</para>
+        <para id="id26845405">Câu hỏi đúng sai sẽ hiển thị trên trang như sau :</para>
+        <figure id="id26313906">
+          <media id="id1171458263248" alt=""><image src="../../media/graphics20-fa59.png" mime-type="image/png" height="177" width="575"/></media>
+        </figure>
+        <para id="id27168674">Khi đó, học viên sẽ lựa chọn phương án trả lời. Nếu phương án lựa chọn của học viên trùng với phương án lựa chọn của người soạn câu hỏi, hệ thống sẽ thông báo đúng (correct), ngược lại là sai (incorrect). Học viên cũng có thể kích chuột vào biểu tượng phía bên phải (cái bao) của phương án trả lời để nhận được lời gợi ý (hint) đã cài sẵn.</para>
+      </section>
+      <section id="id-340414193226">
+        <title>Câu hỏi đa lựa chọn (Multi-Choice Question)</title>
+        <para id="id26561380">Câu hỏi đa lựa chọn là câu hỏi với nhiều phương án lựa chọn khác nhau.</para>
+        <para id="id26022674">Để đưa một câu hỏi đa lựa chọn vào phần nội dung, ta làm như sau :</para>
+        <para id="id26022678">Bước 1 : Kích chọn iDevice Multi-Choice Question từ danh sách iDevice.</para>
+        <para id="id27402064">Bước 2 : Trong ô văn bản Multi-Choice Question, ta nhập tiêu đề khác bằng tiếng Việt nếu cần</para>
+        <para id="id24840016">Bước 3 : Nhập nội dung câu hỏi vào ô Question.</para>
+        <para id="id25592986">Bước 4 : Nếu cần, nhập một vài gợi ý vào ô Hint. Nội dung phần gợi ý này sẽ được hiển thị khi học viên yêu cầu.</para>
+        <figure id="id26051854">
+          <media id="id1171458985887" alt=""><image src="../../media/graphics21-3623.png" mime-type="image/png" height="312" width="630"/></media>
+        </figure>
+        <para id="id26134151">Bước 5 : Nhập các phương án trả lời :</para>
+        <figure id="id25148783">
+          <media id="id1171458250774" alt=""><image src="../../media/graphics22-f103.png" mime-type="image/png" height="357" width="630"/></media>
+        </figure>
+        <para id="id25288260">Mỗi phương án trả lời có 3 tham số :</para>
+        <list id="id27030167" list-type="bulleted">
+          <item>Nội dung của phương án trả lời. Ta nhập nội dung này vào ô Option</item>
+          <item>Hồi đáp của giáo viên khi học viên lựa chọn phương án trả lời đó. Ta nhập phần hồi đáp vào ô Feedback</item>
+          <item>Giá trị của phương án trả lời. Nếu như đây là phương án trả lời đúng, ta kích chọn nút Correct Option (nằm ở bên phải phương án trả lời).</item>
+        </list>
+        <para id="id26346397">Để thêm một phương án trả lời mới, ta kích chọn nút Add another option, sau đó làm lại bước 5 để nhập thông tin cho phương án trả lời mới.</para>
+        <para id="id25085747">Để xoá một phương án trả lời đã có, ta kích chọn dấu gạch chéo màu đỏ cạnh nút Correct Option.</para>
+        <para id="id25085754">Sau khi hoàn thành câu hỏi, lưu nội dung của iDevice bằng cách kích chọn dấu check màu xanh phía dưới bên trái của iDevice</para>
+        <para id="id25413217">Khi đó, trên màn hình sẽ hiển thị câu hỏi có mẫu như sau :</para>
+        <figure id="id26095417">
+          <media id="id1171458258744" alt=""><image src="../../media/graphics23-9ccd.png" mime-type="image/png" height="128" width="290"/></media>
+        </figure>
+        <para id="id26798891">Nếu học viên kích chọn một phương án trả lời, hệ thống sẽ hiển thị hồi đáp tương ứng với phương án đó. Nếu học viên cần trợ giúp, có thể kích chuột vào biểu tượng yêu cầu hướng dẫn nằm ở giữa câu hỏi và các phương án trả lời.</para>
+      </section>
+      <section id="id-936683689019">
+        <title>Các hoạt động thông thường (Activity)</title>
+        <para id="id26798902">Activity là các hoạt động hay các thao tác mà học viên sẽ sử dụng để qua đó tiếp thu được kiến thức.</para>
+        <para id="id27168624">Để đưa các hoạt động vào tài liệu, ta làm như sau:</para>
+        <para id="id27168628">Bước 1: Kích chọn iDevice Activity. Màn hình soạn thảo iDevice hiển thị như sau:</para>
+        <figure id="id27168431">
+          <media id="id9051308" alt=""><image src="../../media/graphics24-86f6.png" mime-type="image/png" height="326" width="630"/></media>
+        </figure>
+        <para id="id26831578">Bước 2: Trong ô nhập văn bản Activity, bạn có thể thay đổi tiêu đề sang tiếng Việt.</para>
+        <para id="id27005343">Bước 3: Nhập các thông tin về các thao tác cần thực hiện.</para>
+        <para id="id26892408">Bước 4: Đánh dấu vào nút check màu xanh ở góc dưới bên trái để lưu nội dung của iDevice.</para>
+      </section>
+      <section id="id-357570742267">
+        <title>Các hoạt động thảo luận (case study)</title>
+        <para id="id26069105">Case study là một bài viết về một câu chuyện hay một vấn đề nào đó. Sau khi đọc xong bài viết, học viên sẽ phải thảo luận, trả lời một số vấn đề dựa trên nội dung bài viết.</para>
+        <para id="id25265745">Để đưa một case study vào tài liệu, ta làm như sau:</para>
+        <para id="id25265749">Bước 1: Kích chọn iDevice Case Study. </para>
+        <figure id="id26080570">
+          <media id="id3585248" alt=""><image src="../../media/graphics25-1b7d.png" mime-type="image/png" height="153" width="579"/></media>
+        </figure>
+        <para id="id27352796">Bước 2: Thay đổi tiêu đề tiếng Anh trong ô văn bản Case Study thành tiếng Việt nếu cần.</para>
+        <para id="id27202797">Bước 3: Nhập câu chuyện chứa nội dung mà ta cần truyền tải tới học viên vào ô Story.</para>
+        <para id="id25454849">Bước 4: Nhập các câu hỏi thảo luận:</para>
+        <figure id="id26683391">
+          <media id="id1171458263105" alt=""><image src="../../media/graphics26-b9f9.png" mime-type="image/png" height="335" width="591"/></media>
+        </figure>
+        <para id="id25573278">Mỗi một câu hỏi sẽ được đưa vào dưới dạng một hoạt động (activity):</para>
+        <para id="id25687005">Trong ô Activity, ta nhập yêu cầu (dưới dạng câu hỏi) của hoạt động đó.</para>
+        <para id="id25281612">Trong ô Feedback, ta nhập phản hồi. Khi học viên kích chọn Show Feedback tương ứng với câu hỏi hành động, hệ thống sẽ hiển thị phản hồi tương ứng với câu hỏi đó.</para>
+        <para id="id26351603">Bước 5: Nếu muốn bổ sung thêm các hoạt động khác, ta kích chọn nút Add another question và thực hiện lại bước 4 đối với hoạt động mới.</para>
+        <para id="id25332236">Sau khi hoàn thành, bấm chọn dấu check ở góc dưới bên trái để lưu nội dung trong iDevice.</para>
+      </section>
+      <section id="id-824772622371">
+        <title>Các hoạt động đọc hiểu (Reading activity)</title>
+        <para id="id25332242">Đây có thể coi là một dạng thu gọn của Case Study với duy nhất một Activity:</para>
+        <para id="id27172362">Để đưa dạng hoạt động này vào tài liệu, ta làm như sau:</para>
+        <para id="id27172368">Bước 1: Kích chọn iDevice Reading Activity trong danh sách iDevice. Hệ thống sẽ hiển thị như sau:</para>
+        <figure id="id25108026">
+          <media id="id1171458208818" alt=""><image src="../../media/graphics27-e36d.png" mime-type="image/png" height="503" width="630"/></media>
+        </figure>
+        <para id="id26646658">Bước 2: Trong ô soạn thảo Reading Activity, ta thay thế bằng tiếng Việt tương ứng theo ngữ cảnh của tài liệu, chẳng hạn như: Hãy đọc đoạn văn sau.</para>
+        <para id="id25431178">Bước 3: Nhập nội dung của phần tài liệu cần yêu cầu học viên đọc vào ô What to read.</para>
+        <para id="id26354372">Bước 4: Nhập các yêu cầu về các họat động của học viên trong ô Activity.</para>
+        <para id="id26096470">Bước 5: Nhập thông tin phản hồi đến học viên. Thông tin này sẽ được hiển thị sau khi học viên kích chọn nút Click here hiển thị trên tài liệu. </para>
+      </section>
+    </section>
+  </content>
+</document>
