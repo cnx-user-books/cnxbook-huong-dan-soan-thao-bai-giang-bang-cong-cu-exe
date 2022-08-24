@@ -1,3 +1,32 @@
-<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en">  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">  <md:content-id>col10839</md:content-id>  <md:title>Hướng dẫn soạn thảo bài giảng bằng công cụ eXe</md:title>      <md:license url="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License 3.0</md:license>  <md:language>vi</md:language>      <md:uuid>7322ce5b-5229-4cd6-889b-e27aff5bdb95</md:uuid>
-<md:slug>huong-dan-soan-thao-bai-giang-bang-cong-cu-exe</md:slug>
-</metadata>  <col:content>                        <col:subcollection>        <md:title>Giới thiệu và bước đầu làm việc với eXe</md:title>                                <col:content>                    <col:module document="m28561"/>                            <col:module document="m28604"/>                          </col:content>      </col:subcollection>                            <col:subcollection>        <md:title>Sử dụng eXe xây dựng nội dung cho bài giảng điện tử</md:title>                                <col:content>                    <col:module document="m28621"/>                            <col:module document="m28755"/>                            <col:module document="m30912"/>                          </col:content>      </col:subcollection>              <col:module document="m28756"/>                            <col:module document="m28531"/>                            <col:module document="m28655"/>                            <col:module document="m29020"/>                    </col:content></col:collection>
+<?xml version="1.0"?>
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en" authors="Nguyen Hoang Duy Thien">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+    <md:content-id>col10839</md:content-id>
+    <md:title>H&#x1B0;&#x1EDB;ng d&#x1EAB;n so&#x1EA1;n th&#x1EA3;o b&#xE0;i gi&#x1EA3;ng b&#x1EB1;ng c&#xF4;ng c&#x1EE5; eXe</md:title>
+    <md:license url="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License 3.0</md:license>
+    <md:language>vi</md:language>
+    <md:uuid>7322ce5b-5229-4cd6-889b-e27aff5bdb95</md:uuid>
+    <md:slug>huong-dan-soan-thao-bai-giang-bang-cong-cu-exe</md:slug>
+  </metadata>
+  <col:content>
+    <col:subcollection>
+      <md:title>Gi&#x1EDB;i thi&#x1EC7;u v&#xE0; b&#x1B0;&#x1EDB;c &#x111;&#x1EA7;u l&#xE0;m vi&#x1EC7;c v&#x1EDB;i eXe</md:title>
+      <col:content>
+        <col:module document="m28561"/>
+        <col:module document="m28604"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>S&#x1EED; d&#x1EE5;ng eXe x&#xE2;y d&#x1EF1;ng n&#x1ED9;i dung cho b&#xE0;i gi&#x1EA3;ng &#x111;i&#x1EC7;n t&#x1EED;</md:title>
+      <col:content>
+        <col:module document="m28621"/>
+        <col:module document="m28755"/>
+        <col:module document="m30912"/>
+      </col:content>
+    </col:subcollection>
+    <col:module document="m28756"/>
+    <col:module document="m28531"/>
+    <col:module document="m28655"/>
+    <col:module document="m29020"/>
+  </col:content>
+</col:collection>
